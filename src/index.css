@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --forest-green: #176B3A;
+    --dark-green: #0D3B24;
+    --light-green: #EAF5EC;
+    --accent-green: #4FAF68;
+    --warm-beige: #F6F3EA;
+    --bg-main: #FAFBF8;
+    --text-main: #17231B;
+    --muted-text: #66736A;
+    --warning-amber: #E6A23C;
+    --disease-red: #D9534F;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar for agricultural dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFBF8;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Print Styles for Plant Health Report */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-health-report, #printable-health-report * {
+    visibility: visible;
+  }
+  #printable-health-report {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

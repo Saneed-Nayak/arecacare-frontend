@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#0D3B24"/>
+  <path d="M32 8C32 8 20 22 20 38C20 45.732 25.3726 52 32 52C38.6274 52 44 45.732 44 38C44 22 32 8 32 8Z" fill="#176B3A"/>
+  <path d="M32 14V48" stroke="#4FAF68" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 22L24 28" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 22L40 28" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 30L22 38" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 30L42 38" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 38L25 45" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 38L39 45" stroke="#4FAF68" stroke-width="2" stroke-linecap="round"/>
+  <!-- AI Neural Node circles -->
+  <circle cx="32" cy="14" r="3" fill="#EAF5EC" stroke="#176B3A" stroke-width="1.5"/>
+  <circle cx="24" cy="28" r="2.5" fill="#4FAF68"/>
+  <circle cx="40" cy="28" r="2.5" fill="#4FAF68"/>
+  <circle cx="22" cy="38" r="2.5" fill="#4FAF68"/>
+  <circle cx="42" cy="38" r="2.5" fill="#4FAF68"/>
+  <circle cx="32" cy="50" r="3" fill="#EAF5EC" stroke="#176B3A" stroke-width="1.5"/>
+</svg>
