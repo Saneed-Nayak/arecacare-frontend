@@ -19,7 +19,7 @@ export const AgriChatAssistant: React.FC<AgriChatAssistantProps> = ({ isOpen, on
     {
       id: 'm1',
       sender: 'ai',
-      text: 'Namaskara! I am your ArecaCare AI Smart Agronomist. Ask me anything about arecanut diseases, Bordeaux mixture preparation, fertilizer schedules, or monsoon disease prevention.',
+      text: 'Namaskara! I am your Smart disease detection in areca nut plantation Smart Agronomist. Ask me anything about arecanut diseases, Bordeaux mixture preparation, fertilizer schedules, or monsoon disease prevention.',
       time: 'Just now',
       suggestions: [
         'How do I prepare 1% Bordeaux mixture?',

@@ -50,7 +50,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div>
               <div className="flex items-center gap-1 sm:gap-1.5">
                 <span className="font-extrabold text-base sm:text-lg lg:text-xl text-[#0D3B24] tracking-tight">
-                  ArecaCare AI
+                  Smart disease detection in areca nut plantation
                 </span>
                 <span className="hidden sm:inline text-[10px] font-mono uppercase bg-[#EAF5EC] text-[#176B3A] px-2 py-0.5 rounded font-bold border border-[#176B3A]/20">
                   CSE Capstone

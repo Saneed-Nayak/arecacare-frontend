@@ -20,7 +20,7 @@ export const AcademicVivaModal: React.FC<AcademicVivaModalProps> = ({ onClose })
             </span>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="font-bold text-base sm:text-lg">ArecaCare AI — CSE Data Science Final Year Project</h3>
+                <h3 className="font-bold text-base sm:text-lg">Smart disease detection in areca nut plantation — CSE Data Science Final Year Project</h3>
                 <span className="text-[10px] bg-[#EAF5EC] text-[#176B3A] px-2 py-0.5 rounded font-bold">
                   Viva & Technical Dossier
                 </span>
@@ -282,7 +282,7 @@ export const AcademicVivaModal: React.FC<AcademicVivaModalProps> = ({ onClose })
               <div className="p-4 bg-[#FAFBF8] border border-gray-200 rounded-xl space-y-2 text-xs">
                 <h4 className="font-bold text-[#0D3B24] flex items-center gap-1.5">
                   <Layers className="w-4 h-4 text-[#176B3A]" />
-                  <span>Mathematical Formulation of Grad-CAM in ArecaCare AI</span>
+                  <span>Mathematical Formulation of Grad-CAM in Smart disease detection in areca nut plantation</span>
                 </h4>
                 <p className="text-[#66736A] leading-relaxed">
                   To ensure transparency in agricultural decisions, we calculate the neuron importance weights <code className="font-mono bg-white px-1 py-0.5 rounded border">α_k^c</code> via global average pooling of the gradients:
